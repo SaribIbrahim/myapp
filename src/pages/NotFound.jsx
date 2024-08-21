@@ -1,10 +1,13 @@
-
+import { Link } from "react-router-dom"
 
 function NotFound() {
   return (
-    <div>
-        <h1>Not Found</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, dignissimos.</p>
+    <div style={{textAlign:'center'}}>
+        
+        <h1 style={{fontWeight:'bold'}}>404</h1>
+        <p>Error.Not Found!</p>
+        <Link className="btn btn-danger " to={'/'}>Go Back </Link>
+        
     </div>
   )
 }
